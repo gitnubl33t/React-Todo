@@ -6,7 +6,7 @@ export class TodoForm extends React.Component {
       <div>
         <form id="form">
           <label htmlFor="input">
-            <input type="text" name="input" placeholder="New task" />
+            <input type="text" name="input" placeholder="New Task" />
           </label>
           <button type="submit">Add Todo</button>
           <button type="button">Clear Completed</button>
@@ -15,5 +15,3 @@ export class TodoForm extends React.Component {
     );
   }
 }
-
-export default TodoForm;
